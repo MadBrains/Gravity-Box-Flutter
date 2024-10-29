@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
               GravityObject(
                 size: 100,
                 position: const Vector2(200, 200),
-                canRoll: false,
+                canRoll: true,
                 widget: Container(
                   decoration: const BoxDecoration(
                     color: Colors.red,
