@@ -1,0 +1,36 @@
+name: gravity_box
+version: 1.0.0
+description: A Flutter library that provides a GravityBox widget for simulating gravity inside of it.
+homepage: https://github.com/madbrains/gravity_box
+repository: https://github.com/madbrains/gravity_box
+issue_tracker: https://github.com/madbrains/gravity_box/issues
+documentation: https://github.com/madbrains/gravity_box
+publish_to: none
+dart_line_length: 100
+
+platforms:
+  android:
+  ios:
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  gravity_sensor: ^1.0.1
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+topics:
+ - widget
+ - ui
+ - flutter
+ - gravity
+ - box
