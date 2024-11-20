@@ -106,10 +106,10 @@ class _GravityBoxState extends State<GravityBox>
         for (final ValueNotifier<GravityObject> gravityObjectNotifier in _gravityObjectNotifiers)
           ValueListenableBuilder(
             valueListenable: gravityObjectNotifier,
-            builder: (_, GravityObject info, Widget? child) {
+            builder: (_, GravityObject info, __) {
               final Widget object = Transform.rotate(
                 angle: info.angle * (pi / 180),
-                child: child,
+                child: info.widget,
               );
 
               return Positioned(
@@ -123,7 +123,6 @@ class _GravityBoxState extends State<GravityBox>
                     : object,
               );
             },
-            child: gravityObjectNotifier.value.widget,
           ),
       ],
     );
