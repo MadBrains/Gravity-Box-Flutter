@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - gravity_sensor (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - gravity_sensor (from `.symlinks/plugins/gravity_sensor/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  gravity_sensor:
+    :path: ".symlinks/plugins/gravity_sensor/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  gravity_sensor: 415641c53c754ff803efcca7dce48ce63957f089
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.15.2
